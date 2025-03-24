@@ -1,0 +1,33 @@
+projeto-escala/
+├── src/
+│   ├── app/
+│   │   ├── core/                 # Serviços centrais (auth, http, etc.)
+│   │   │   ├── auth/
+│   │   │   ├── http/
+│   │   │   └── models/           # Interfaces e classes de modelo
+│   │   ├── pages/                # Páginas principais do app
+│   │   │   ├── login/
+│   │   │   ├── register/
+│   │   │   ├── dashboard/
+│   │   │   ├── salas/            # Listagem de salas
+│   │   │   ├── detalhes-sala/    # Visualização de uma sala específica
+│   │   │   ├── criar-sala/
+│   │   │   ├── escalas/          # Listagem de escalas
+│   │   │   ├── detalhes-escala/  # Visualização de uma escala específica
+│   │   │   ├── criar-escala/
+│   │   │   └── perfil/
+│   │   ├── shared/               # Componentes compartilhados
+│   │   │   ├── components/
+│   │   │   │   ├── header/
+│   │   │   │   ├── footer/
+│   │   │   │   ├── user-selector/
+│   │   │   │   └── schedule-card/
+│   │   │   └── pipes/
+│   │   └── app.module.ts
+│   ├── assets/
+│   └── environments/
+└── api/                          # Backend API (Java ou Python)
+    ├── controllers/
+    ├── models/
+    ├── services/
+    └── database/
